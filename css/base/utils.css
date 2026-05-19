@@ -1,0 +1,28 @@
+.container {
+    margin-inline: auto;
+    padding-inline: 20px;
+    width: 100%;
+    /*макета под планшеты нет, след брейкпоинт должен быть на 768, чтоб не ехало при ресайзе пока оставлю ограничение в 688px*/
+    max-width: 688px;
+}
+.crossout{
+    text-decoration: line-through solid var(--orange);
+}
+.highlighted{
+    color: var(--orange);
+    letter-spacing: 1.4px;
+}
+
+.dirt{
+    background-image: url('../../assets/images/dirt.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+
+@media (min-width: 1366px){
+    .container{
+        max-width: 1222px;
+        padding-inline: 0px;
+    }
+}

@@ -1,0 +1,16 @@
+@import 'base/variables.css';
+@import 'base/reset.css';
+@import 'base/typography.css';
+@import 'base/utils.css';
+
+@import 'components/running-line.css';
+@import 'components/slider-btns.css';
+@import 'components/hero.css';
+@import 'components/footer.css';
+@import 'components/support.css';
+@import 'components/about.css';
+@import 'components/stages.css';
+@import 'components/participants.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');

@@ -1,0 +1,16 @@
+.footer{
+    background-color: var(--beige);
+    padding-block: 40px 60px;
+}
+
+.footer__content{
+    font-size: 16px;
+    opacity: 0.6;
+    line-height: 120%;
+}
+
+@media (min-width: 1366px) {
+    .footer{
+        padding-block: 42px 72px;
+    }
+}

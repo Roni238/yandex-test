@@ -1,0 +1,40 @@
+h1 {
+    font-size: 36px;
+    line-height: 110%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 110%;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 135%;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+}
+
+@media (min-width: 1366px) {
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 54px;
+        letter-spacing: 1px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    a{
+        font-size: 20px; 
+    }
+}

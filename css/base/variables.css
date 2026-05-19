@@ -1,0 +1,21 @@
+:root {
+    --white: #FFFFFF;
+    --off-white: #FBFAFC;
+    --black-100: #313131;
+    --black-90: #161515;
+    --black-80: #151515;
+    --black-70: #0C0C0C;
+    --black-60: #1F1F1F;
+    --black-50: #010000;
+    --gray-dark: #424241;
+    --gray-medium: #595653;
+    --gray-light: #D0D0D0;
+    --gray-bg: #D9D9D9;
+
+    --blue: #3057A2;
+    --orange: #F54932;
+    --yellow: #FBCE51;
+    --beige: #E9DED4;
+
+    --black-20: rgba(49, 49, 49, 0.2);
+}

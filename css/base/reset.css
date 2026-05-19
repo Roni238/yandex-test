@@ -1,0 +1,39 @@
+/* Минимальный reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Golos Text", sans-serif;;
+    font-size: 18px;
+    color: var(--black-100);
+    background-color: var(--white);
+}
+
+button {
+    font: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 130%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 120%;
+    color: var(--blue);
+}
+
+ul,
+ol {
+    list-style: none;
+}
